@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<books>
+  <book isbn='234523-2452345'>
+    <title>Grroovy1</title>
+    <author>Rajasekar</author>
+    <price>34.5</price>
+  </book>
+  <book isbn='234523-2452346'>
+    <title>Grroovy2</title>
+    <author>Rajasekar</author>
+    <price>35.5</price>
+  </book>
+  <book isbn='234523-2452347'>
+    <title>Grroovy3</title>
+    <author>Rajasekar</author>
+    <price>36.5</price>
+  </book>
+  <book isbn='234523-2452348'>
+    <title>Grroovy4</title>
+    <author>Rajasekar</author>
+    <price>37.5</price>
+  </book>
+  <book isbn='234523-2452349'>
+    <title>Grroovy5</title>
+    <author>Rajasekar</author>
+    <price>38.5</price>
+  </book>
+</books>
