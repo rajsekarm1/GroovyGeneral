@@ -21,9 +21,27 @@ class MetaProgramming implements GroovyObject{
 	
 }
 
+class RunningPerson {
+	
+	void run(kms){
+		println "Person can run ${kms}"
+	}
+}
+
+
 class MetaProgrammingExample {
 
 	static main(args) {
+		
+		def person = new RunningPerson()
+		def method = person.metaClass.getMetaMethod('run',10)
+		method.invoke(person,2)
+		
+		
+		
+		
+		
+		
 		def user = new Expando();
 		user.email = "rajsekarm@gmail.com"
 		user.userName = "rajsekarm"
